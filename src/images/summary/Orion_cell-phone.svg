@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="32" height="32">
+  <title>Cell Phone</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <rect data-name="layer3"
+  x="16" y="10" width="34" height="52" rx="6" ry="6" fill="#cc9b1e"></rect>
+  <path data-name="opacity" d="M21 56V16a6 6 0 0 1 6-6h-5a6 6 0 0 0-6 6v40a6 6 0 0 0 6 6h5a6 6 0 0 1-6-6z"
+  fill="#000064" opacity=".14"></path>
+  <path data-name="layer2" fill="#f1d99e" d="M22 18h22v16H22z"></path>
+  <circle data-name="layer1" cx="26" cy="41" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="33" cy="41" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="40" cy="41" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="26" cy="48" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="33" cy="48" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="40" cy="48" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="26" cy="55" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="33" cy="55" r="1" fill="#e4b646"></circle>
+  <circle data-name="layer1" cx="40" cy="55" r="1" fill="#e4b646"></circle>
+  <path data-name="opacity" fill="#fff" opacity=".25" d="M44 18h-2L26 34h18V18z"></path>
+  <rect data-name="stroke" x="16" y="10" width="34" height="52" rx="6"
+  ry="6" fill="none" stroke="#846313" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="2" stroke-linejoin="round"></rect>
+  <path data-name="stroke" fill="none" stroke="#846313" stroke-linecap="round"
+  stroke-miterlimit="10" stroke-width="2" d="M22 18h22v16H22zm2-16v7.9" stroke-linejoin="round"></path>
+  <circle data-name="stroke" cx="26" cy="41" r="1" fill="none" stroke="#846313"
+  stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="33" cy="41" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="40" cy="41" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="26" cy="48" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="33" cy="48" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="40" cy="48" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="26" cy="55" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="33" cy="55" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+  <circle data-name="stroke" cx="40" cy="55" r="1" fill="none"
+  stroke="#846313" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+  stroke-linejoin="round"></circle>
+</svg>

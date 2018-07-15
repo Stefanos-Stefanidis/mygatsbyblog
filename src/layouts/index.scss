@@ -1,0 +1,377 @@
+/* 
+* sass variable declarations
+*/
+
+$mainColor: #e1e1e1;
+$linkColor: #606060;
+$bigFontSize: 200%;
+$animateColor: rgb(17, 248, 17);
+$mainFontSize: 20px;
+$borderColor: #393939;
+@font-face {
+    font-family: signature;
+    src: url(./fonts/ContureScript.ttf);
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: $mainFontSize;
+}
+
+
+#bg-front-img {
+  height: 100vh;
+  background: url(../images/front-bg-img.png);
+}
+
+#menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.positipnAnimateText {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.singlePostFp {
+  width: 400px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.overlay{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+    margin-top: 0;
+}
+.singlePostFp:hover .overlay {
+    display: block;
+}
+.singlePostFp:hover .postCategory {
+    display: none;
+}
+.singlePostFp:hover .moreInfo {
+    display: block;
+}
+.postInfo {
+    position: absolute;
+    margin-top: 100px;
+}
+.moreInfo{
+    text-align: center;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -50px;
+    display: none;
+}
+.readMore {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: goldenrod;
+    border: 7px double goldenrod;
+    padding: 5px;
+    margin-top: 210px
+}
+.postTitle{
+    margin: 30px 0;
+}
+.postCategory{
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    margin-left: 100px;
+    padding: 10px;
+    z-index: 999999;
+}
+
+.latestPostGrid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  margin: 4% 20%;
+  justify-items: center;
+}
+.introduction {
+  margin: 4% 0;
+}
+
+.gallery{
+    display: flex;
+}
+/* general rules start */
+.textCenter{
+  text-align: center
+}
+.container{
+    padding-left: 25%;
+    padding-right:  25%;
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+h2.entryTitle {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-weight: 200;
+}
+.metaWrapper{
+    border-top: 1px solid $borderColor;
+    border-bottom: 1px solid $borderColor;
+}
+.linkColor{
+    color: $linkColor;
+}
+/* general rules end */
+.backToTop{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+.backToTop div{
+    cursor: pointer;
+}
+/* Typist css start */
+.bigFontSize{
+  font-size: $bigFontSize;
+}
+.animateColor{
+  color: $animateColor;
+}
+
+.chevron {
+  font-size: 30px;
+  vertical-align: super;
+  color: $animateColor;
+}
+.Typist .Cursor {
+  display: inline-block;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  font-size: 30px;
+  color: $animateColor;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+/* typist css end */
+/* summary css start */
+
+#pen-img {
+    position: fixed;
+    width: 6%;
+    right: 5px;
+    top: 15%;
+}
+#quil-img {
+    width: 25%;
+}
+#avatar {
+    display: flex;
+    background-image: url(../images/summary/avatar.jpeg);
+    background-repeat: no-repeat;
+    height: 247px;
+}
+
+.social-wrapper a {
+    color: #fff;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.split-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.basic-info {
+    padding: 10px;
+}
+
+.stable-content {
+    margin-top: 20px;
+}
+
+.content {
+    padding: 10px 10px;
+}
+
+.flex-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.flex-grid p {
+    display: flex;
+    justify-content: center;
+}
+
+.name-position {
+    margin-top: auto;
+    padding: 5px;
+    background-color: goldenrod;
+    width: -moz-available;
+}
+
+.half-border-bottom {
+    border-bottom: 2px solid gray;
+    position: relative;
+}
+
+.half-border-bottom:after {
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    right: 0;
+    border-bottom: 2px solid goldenrod;
+    content: '';
+}
+
+.half-border-small:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    /* This will center the border. */
+    width: 25%;
+    /* Change this to whatever width you want. */
+    padding-top: 10px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid goldenrod;
+    /* This creates the border. Replace black with whatever color you want. */
+}
+
+.skill {
+    background: goldenrod;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0 25px 0 25px;
+}
+
+.skill-level {
+    background: #7851A9;
+    height: 6px;
+}
+
+.signature {
+    font-family: signature;
+    font-size: 120px;
+    border-bottom: 2px double goldenrod;
+}
+
+/* general rules */
+
+.flash--margins {
+    margin: 0;
+}
+
+.pd-bt-tp--sm {
+    padding: 15px 0;
+}
+
+.mr-top--sm {
+    margin-top: 25px;
+}
+.mr-top--lg {
+    margin-top: 88px;
+}
+.vertical-align--middle {
+    vertical-align: middle;
+}
+
+.bg-color--fff {
+    background-color: #fff;
+}
+.summaryPaper{
+    background-image: url(./../images/summary/yellow-notebook-paper.jpg);
+    padding: 25px 0;
+}
+@media only screen and (min-width:960px) {
+    #pen-img {
+        right: 20px;
+    }
+    #quil-img {
+        position: absolute;
+        width: 8%;
+    }
+    #quil-img {
+        display: block;
+        position: absolute;
+        width: 8%;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 30% auto;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .imgGrid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+    }
+}
+/* summary css end */
+/* Media start */
+@media (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+}
+
+@media (min-width: 480px) {
+  body {
+      font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+      font-size: 15px;
+  }
+}
+
+
+/* media end */
